@@ -14,9 +14,29 @@ The goal of this project is to analyse the impact of these speed constraints ove
 
 To that aim, the folder "functions" have been created where all the functions and methods of extracting, clustering, and analyzing gait data are defined.
 
-## Project Structure (in the functions folder)
+## Project Structure
+```plaintext
+.
+├── Data
+│   ├── Norm_V1.mat
+│   ├── Norm_V2.mat
+│   ├── Norm_V3.mat
+│   ├── Norm_V4.mat
+│   └── Norm_V5.mat
+├── functions
+│   ├── ACP.py
+│   ├── clustering.py
+│   ├── DTW.py
+│   ├── extract_data.py
+│   ├── kmedoids.py
+│   ├── methods.py
+│   ├── show.py
+│   └── variance.py
+├── main.py
+└── README.md
+```
 
-
+## Quick explanation of our work
 
 - **main.py**: The main entry point of the project. It orchestrates the execution of various functions and methods defined in other files.
 - **ACP.py**: Implements Principal Component Analysis (PCA) for dimensionality reduction and feature extraction.
