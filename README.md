@@ -32,6 +32,8 @@ To that aim, the folder "functions" have been created where all the functions an
 │   ├── methods.py
 │   ├── show.py
 │   └── variance.py
+├── Presentation
+│   ├── final_presentation.pdf
 ├── main.py
 └── README.md
 ```
