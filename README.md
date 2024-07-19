@@ -4,9 +4,9 @@
 
 This project focuses on the analysis of gait data. The project includes various methods for extracting, clustering, and analyzing gait data, with potential applications in biometrics, health diagnostics, and motion analysis.
 
-The project is organized into several Python, MATLAB and Javascript files, each responsible for different aspects of the data processing pipeline.
+The initial project is organized into several Python, MATLAB and Javascript files, each responsible for different aspects of the data processing pipeline.
 
-On this project, only the folder "Data" present in the folder "fmoissenet-PatternGenerator-2315600" will be used. In fact, the goal of this project is to analyse the MATLAB data to theorize and classifiy the gait.
+On this project, only the folder "Data" is be used. In fact, the goal of this project is to analyse the MATLAB data to theorize and classifiy the gait.
 
 The data are composed of five MATLAB files that represent cycles of walk. 52 healthy persons (no neuro-orthopedic troubles) have been asked to walk under five different speed constraints. Each data file correspond to 10 cycles of these 52 persons for a given speed constraint.
 
