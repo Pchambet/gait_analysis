@@ -67,16 +67,19 @@ The main takeaway is that **slow-speed constraints make gait patterns more disti
 
 ## Project Structure
 
-* **/Data/**: Contains the raw .mat files
-* **/Presentation/**: Project presentation PDF
-* **/functions/**: All modular Python scripts
-    * `ACP.py`: PCA implementation
-    * `clustering.py`: K-Means and Hierarchical clustering
-    * `DTW.py`: Dynamic Time Warping implementation
-    * `extract_data.py`: Function to read .mat files
-    * `kmedoids.py`: K-Medoids implementation
-    * `methods.py`: Helper functions
-    * `show.py`: Visualization functions
-    * `variance.py`: Variance analysis
-* `main.py`: Main script to run the pipeline
-* `README.md`: This file
+├── 📁 Data/                  # Raw input data (.mat files)
+│
+├── 📁 Presentation/          # PDF slides
+│
+├── 📁 functions/             
+│   ├── ACP.py                # Principal Component Analysis 
+│   ├── clustering.py         # K-Means and Hierarchical clustering algorithms  
+│   ├── DTW.py                # DTW implementation  
+│   ├── extract_data.py       # read and parse .mat files  
+│   ├── kmedoids.py           # kmedoid implementation  
+│   ├── methods.py            # Utility and helper functions  
+│   ├── show.py               # 
+│   └── variance.py           # analysis methods  
+│
+├── main.py                   # Main pipeline script (entry point)
+├── README.md                 
