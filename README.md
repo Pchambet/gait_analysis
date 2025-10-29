@@ -8,7 +8,7 @@ This was a M1-level academic project for the "Artificial intelligence for data s
 
 ## Project Objective
 
-The dataset contains 10 knee-flexion gait cycles from 52 healthy participants [cite: 99, 101][cite_start], each walking under 5 different speed constraints (from very slow to high speed).
+The dataset contains 10 knee-flexion gait cycles from 52 healthy participants, each walking under 5 different speed constraints (from very slow to high speed).
 
 **The core objective was to: Analyze the impact of these speed constraints on a person's gait, using clustering methods to segment and understand pattern changes.**
 
@@ -52,13 +52,8 @@ The K-Means clustering and variance analysis provided the key insight:
 * **Cycles become more individual-specific:** As seen in the table below, the slowest speeds are spread across all 5 clusters, while the reference speed (Ref) is highly concentrated in just one cluster.
 * **Variance increases:** The average variance within a single person's 10 cycles is highest at the slowest speed (26.88) and lowest at high speed (8.31).
 
-*Caption: Distribution of speed groups across the 5 K-Means clusters  and average intra-person variance by speed.*
-
-![Alt text](images/caption-4.png)
-
-*and average intra-person variance by speed.*
-
-![Alt text](images/caption-6.png)
+*Caption: Distribution of speed groups across the 5 K-Means clusters.*
+![K-Means (k=5) cluster plot and distribution table](images/caption-4.png)
 
 ---
 
@@ -71,8 +66,6 @@ The main takeaway is that **slow-speed constraints make gait patterns more disti
 ---
 
 ## Project Structure
-
-## 📂 Project Structure
 
 * **/Data/**: Contains the raw .mat files
 * **/Presentation/**: Project presentation PDF
