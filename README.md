@@ -52,7 +52,11 @@ The K-Means clustering and variance analysis provided the key insight:
 * **Cycles become more individual-specific:** As seen in the table below, the slowest speeds are spread across all 5 clusters, while the reference speed (Ref) is highly concentrated in just one cluster.
 * **Variance increases:** The average variance within a single person's 10 cycles is highest at the slowest speed (26.88) and lowest at high speed (8.31).
 
-*Caption: Distribution of speed groups across the 5 K-Means clusters (left) and average intra-person variance by speed (right).*
+*Caption: Distribution of speed groups across the 5 K-Means clusters  and average intra-person variance by speed.*
+
+![Alt text](images/caption-4.png)
+
+*and average intra-person variance by speed.*
 
 ![Alt text](images/caption-6.png)
 
