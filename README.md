@@ -66,7 +66,7 @@ The main takeaway is that **slow-speed constraints make gait patterns more disti
 ---
 
 ## Project Structure
-
+```
 ├── 📁 Data/                  # Raw input data (.mat files)
 │
 ├── 📁 Presentation/          # PDF slides
@@ -83,3 +83,4 @@ The main takeaway is that **slow-speed constraints make gait patterns more disti
 │
 ├── main.py                   # Main pipeline script (entry point)
 ├── README.md                 
+```
